@@ -1,8 +1,8 @@
 #A quiz designed to help sort you into your generation, based on your answers to the following questions:
 Total_Score = 0
 print ("Ever wondered if you were born in the right generation? Well today's your lucky day... LET'S PLAY GENERATION Q(uiz)!")
-command = input("Type START to start, EXIT to end game, HELP for instructions: ")
-while command != "EXIT":
+command = input("Type START to start: ")
+while command == "START":
     command = input("Question 1: What Social Media App do you use most often? \n a. TikTok \n b. Instagram \n c. Facebook \n d. I prefer face-to-face commnication \n ANS HERE: ")
     if command == "a":
         print ("good answer! On your way to becoming Tiktok Famous :p")
@@ -29,6 +29,12 @@ while command != "EXIT":
     if command_2 == "c":
         print ("Yikes that SOUNDS heavy")
         Total_Score = Total_Score + 30
+    if command_2 == "d":
+        print ("I've always wanted to use one of those...'")
+        Total_Score = Total_Score + 40
+    print (Total_Score)
+
+
 
 
 
