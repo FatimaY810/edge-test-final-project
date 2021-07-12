@@ -18,7 +18,14 @@ while command != "EXIT":
         Total_Score = Total_Score + 40
     else:
         print ("ERROR")
-    command_2 = input ("Question 2: What was your first telecommunication device (trying to not make the oldies feel older :) )")
+    print (Total_Score)
+    command_2 = input ("Question 2: What was your first telecommunication device (trying to not make the oldies feel older :) ) \n a. Some sort of smartphone (yes, android counts) \n b. A flip phone \n c. a brick phone \n d. those landlines with the dials \n ANS HERE: ")
+    if command_2 == "a":
+        print ("ahhh the wonders of technology")
+        Total_Score = Total_Score + 10
+
+
+
 
 
 
