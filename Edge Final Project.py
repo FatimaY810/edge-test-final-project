@@ -23,6 +23,13 @@ while command != "EXIT":
     if command_2 == "a":
         print ("ahhh the wonders of technology")
         Total_Score = Total_Score + 10
+    if command_2 == "b":
+        print ("I understand if you too were addicted to the wonders of agressive flipping")
+        Total_Score = Total_Score + 20
+    if command_2 == "c":
+        print ("Yikes that SOUNDS heavy")
+        Total_Score = Total_Score + 30
+
 
 
 
