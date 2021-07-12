@@ -5,4 +5,5 @@
 # b. Instagram
 # c. Facebook
 # d. I prefer face to face interactions
-Question 2:
+Question 2: What was your first telecommunication device (trying to not make the oldies feel older :) )
+a.
