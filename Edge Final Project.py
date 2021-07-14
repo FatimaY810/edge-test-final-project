@@ -148,6 +148,6 @@ while command == "START"or command == "start":
     else:
         print ("Greetings, Baby Boomers! Yeah that sounds like an insult even if i didn't mean for it to. Tbh you guys has a terrible rep right now so I suggest keeping lowkey. :)")
 
-    print ("Hope you enjoyed!)
+    print ("Hope you enjoyed!")
 
 print ("end of game")
